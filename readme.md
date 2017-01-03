@@ -4,9 +4,7 @@ This repositories contains solutions for [Exercises for Programmers](https://pra
 
 ## Plan
 
-My focus for implementing the solution to each excercise is on JavaScript (ES5 and ES6) and later on various JavaScript frameworks and libraries (Angular, React, Vue, ELM).
-
-I will ignore exercise "challenges" on the first run through, then possibly revisit them subsequently.
+My focus for implementing the solution to each excercise is on JavaScript. I will ignore exercise "challenges" on the first run through, then possibly revisit them subsequently.
 
 ## Organization
 

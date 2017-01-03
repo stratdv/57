@@ -4,15 +4,16 @@ html
     block(name='meta')
       meta(charset='utf-8')
       meta(http-equiv='X-UA-Compatible' content='IE=edge, chrome=1')
-      meta(name='description' content='')
-      meta(name='author' content='tkraak')
+      meta(name='author' content='Tom Kraak')
       meta(name="viewport" content="width=device-width, initial-scale=1")
 
-    block(name='title')
-      title Title of Your Site
+    block(name='seo')
+      title Exercices for Programmers
+      meta(name='description' content='Solutions in JavaScript for Exercises for Programmers by Brian Hogan.')
 
     block(name='stylesheets')
-      link(rel='stylesheet' href='css/index.css')
+      link(rel='stylesheet' href='css/vendor/mui.min.css')
+      link(rel='stylesheet' href='css/custom.css')
 
   body(role='document')
     main(role='main' id='{{ pageId }}')
