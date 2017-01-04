@@ -12,12 +12,12 @@ html
       meta(name='description' content='Solutions in JavaScript for Exercises for Programmers by Brian Hogan.')
 
     block(name='stylesheets')
-      link(rel='stylesheet' href='css/vendor/mui.min.css')
-      link(rel='stylesheet' href='css/custom.css')
+      link(rel='stylesheet' href='/css/vendor/mui.min.css')
+      link(rel='stylesheet' href='/css/custom.css')
 
   body(role='document')
     main(role='main' id='{{ pageId }}')
       block(name='content')
 
     block(name='javascript')
-      script(src='js/main.js' defer)
+      script(src='/js/main.js' defer)

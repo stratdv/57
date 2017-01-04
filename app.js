@@ -1,4 +1,3 @@
-const path = require('path')
 const htmlStandards = require('reshape-standard')
 const cssStandards = require('spike-css-standards')
 const jsStandards = require('babel-preset-latest')
@@ -15,6 +14,7 @@ module.exports = {
     '**/layout.sgr',
     '**/_*',
     '**/.*',
+    '**/readme.md',
     'readme.md'
   ],
   reshape: (ctx) => {

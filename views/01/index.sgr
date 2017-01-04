@@ -1,0 +1,14 @@
+extends(src='../layout.sgr')
+  block(name='seo')
+    title 01: Saying Hello | Exercices for Programmers
+    meta(name='description' content='Create a program that prompts for your name and prints a greeting using your name.')
+  block(name='content')
+    .mui-container
+      .mui-row
+        .mui-col-md-6
+          form
+            legend Saying Hello
+            .mui-textfield
+              input(type='text' id='name' autocomplete='off' autofocus)
+              label What is your name?
+
