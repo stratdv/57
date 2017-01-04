@@ -5,7 +5,7 @@ module.exports = () => {
   const message = {
     empty: 'The text field is empty. Please enter your name.',
     success: (input) => {
-      return 'Hello ' + input + ', nice to meet you!'
+      return `Hello ${input}, nice to meet you!`
     }
   }
 
