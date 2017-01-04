@@ -1,6 +1,6 @@
 # Saying Hello
 
-* [x] [JavaScript](/tkraak/57/tree/master/assets/js/01.js)
+* [x] [JavaScript](/assets/js/01.js)
 
 ## Problem Statement
 

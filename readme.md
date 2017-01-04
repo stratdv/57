@@ -17,7 +17,7 @@ Each exercise will have its own self-contained directory within this repository 
 
 ## The Exercises
 
- 1. [Saying Hello](tree/master/views/01/)
+ 1. [Saying Hello](views/01/)
  2. Counting the Number of Characters
  3. Printing Quotes
  4. Mad Lib 
