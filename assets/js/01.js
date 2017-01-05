@@ -9,14 +9,14 @@ module.exports = () => {
     }
   }
 
-  function eventHandler (event) {
-    if (event.keycode === 13 || event.which === 13) {
-      writeToDocument(event)
+  function eventHandler (e) {
+    if (e.keyCode === 13 || e.which === 13) {
+      writeToDocument(e)
     }
   }
 
-  function writeToDocument (event) {
-    const column = document.querySelector('.mui-col-md-6')
+  function writeToDocument (e) {
+    const container = document.getElementById('message')
     const p = document.createElement('p')
     if (input.value.length === 0) {
       p.innerHTML = message.empty
@@ -24,9 +24,10 @@ module.exports = () => {
     } else {
       p.innerHTML = message.success(input.value)
     }
-    column.appendChild(p)
+    container.innerHTML = null
+    container.appendChild(p)
     input.value = null
-    event.preventDefault()
+    e.preventDefault()
   }
 }
 

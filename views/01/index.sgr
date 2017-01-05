@@ -11,4 +11,5 @@ extends(src='../layout.sgr')
             .mui-textfield
               input(type='text' id='name' autocomplete='off' autofocus)
               label What is your name?
+          #message
 
